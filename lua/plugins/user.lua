@@ -82,4 +82,10 @@ return {
   },
 
   { "kepano/flexoki-neovim", name = "flexoki" },
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
 }

@@ -3,12 +3,12 @@ return {
   opts = {
     filesystem = {
       filtered_items = {
-        always_show = {
-          ".kubes",
-          ".gitlab-ci.yml",
-          ".gitignore",
-          ".dockerignore",
+        never_show = {
+          "node_modules",
+          ".git",
+          ".ruby-lsp",
         },
+        hide_dotfiles = false,
       },
     },
   },

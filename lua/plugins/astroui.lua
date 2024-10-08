@@ -10,7 +10,8 @@ return {
   opts = {
     -- change colorscheme
     -- colorscheme = "astrodark",
-    colorscheme = "catppuccin-mocha",
+    -- colorscheme = "catppuccin-mocha",
+    colorscheme = "tokyonight-day",
     -- colorscheme = "tokyonight-night",
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
     highlights = {

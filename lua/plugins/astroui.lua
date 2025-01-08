@@ -11,8 +11,9 @@ return {
     -- change colorscheme
     -- colorscheme = "astrodark",
     -- colorscheme = "catppuccin-mocha",
-    colorscheme = "tokyonight-day",
+    -- colorscheme = "tokyonight-day",
     -- colorscheme = "tokyonight-night",
+    colorscheme = "habamax",
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
     highlights = {
       init = { -- this table overrides highlights in all themes

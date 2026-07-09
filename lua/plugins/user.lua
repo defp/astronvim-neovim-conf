@@ -3,14 +3,16 @@
 
 ---@type LazySpec
 return {
-  {
-    "ray-x/lsp_signature.nvim",
-    event = "BufRead",
-    config = function() require("lsp_signature").setup() end,
-  },
-  { "projekt0n/github-nvim-theme", name = "github-theme" },
+  -- 禁用默认加载的 LSP/格式化相关插件
+  { "nvimtools/none-ls.nvim", enabled = false },
+  { "RRethy/vim-illuminate", enabled = false },
 
-  -- == Examples of Overriding Plugins ==
+  -- 禁用代码片段相关插件
+  { "L3MON4D3/LuaSnip", enabled = false },
+  { "saadparwaiz1/cmp_luasnip", enabled = false },
+  { "rafamadriz/friendly-snippets", enabled = false },
+
+  { "projekt0n/github-nvim-theme", name = "github-theme" },
 
   -- customize alpha options
   {

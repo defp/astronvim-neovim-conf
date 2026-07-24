@@ -3,6 +3,9 @@
 
 ---@type LazySpec
 return {
+  -- 禁用 aerial.nvim（treesitter 报错）
+  { "stevearc/aerial.nvim", enabled = false },
+
   -- 禁用默认加载的 LSP/格式化相关插件
   { "nvimtools/none-ls.nvim", enabled = false },
   { "RRethy/vim-illuminate", enabled = false },
